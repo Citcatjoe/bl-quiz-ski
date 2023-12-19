@@ -1,0 +1,27 @@
+{
+	"title": "NO TITLE",
+	"titlesocial": "NO TITLE",
+	"description": "NO DESC",
+	"authors": {
+		"photos": "Midjourney",
+		"videos": null,
+		"writer": {
+			"fname": "Léo",
+			"lname": "Michoud",
+			"title": "Journaliste Blick",
+			"filetype": "png",
+			"url": "https://www.blick.ch/fr/auteurs/leo-michoud-journaliste-blick-id19149587.html"
+		},
+		"dev": "César Greppin"
+	},
+	"imgSocial": "social.jpg",
+	"headertheme": "trans", 
+	"blickWhite": false,
+	"blickBlack": true,
+	"headerBoxed": false,
+	"pubDate": "2020-07-23T11:00:00+00:00",
+	"partner": {
+		"logo": "img/empty.png",
+		"link": "https://www.blick.ch/"
+	}
+}
