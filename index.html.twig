@@ -8,7 +8,7 @@
 <html lang="fr" class="h-full relative"> 
 	<head>
 
-		{# {{ block('consent') }} #}
+		{{ block('consent') }}
 
 		<script src="https://cdn.tailwindcss.com"></script>   
 		<link rel="preconnect" href="https://fonts.googleapis.com">
@@ -92,7 +92,7 @@
 
 		<div class="container max-w-screen-2xl px-4 relative bg-white pt-16 md:pt-24">
 			<div class="container py-8 max-w-2xl">
-				<h1 class="font-serif font-semibold text-4xl md:text-5xl text-center">Gauche ou droite</h1>
+				<h1 class="font-serif font-semibold text-4xl md:text-5xl text-center">De quel canton sont originaires ces skieurs?</h1>
 			</div>            
 			{{ block('social') }}
 		</div>
@@ -100,9 +100,9 @@
 		<div class="hero">
 			<div class="container h-full max-w-screen-xl relative px-4 md:px-20">
 
-				<div class="mb-12 -mx-4 relative">
-					<img src="img/this/placeholder.png" alt="">
-					<span class="absolute bottom-3 text-white text-xs font-sans left-3 opacity-50 uppercase">Shutterstock</span>
+				<div class="mb-12 -mx-4 relative"> 
+					<img src="img/this/odermatttitre.jpg" alt="">
+					<span class="absolute bottom-3 text-white text-xs font-sans left-3 opacity-50 uppercase">Getty Images</span>
 				</div>	
 				
 			</div>
@@ -114,11 +114,11 @@
 			
 			<div class="container mt-8 mb-12 max-w-2xl">
 				<p class="lettrine text-md md:text-lg font-light mb-6">
-					Si vous êtes capable de nommer tous les rennes du Père Noël (dans l’ordre!), d’entonner les bandes originales de «Love Actually» (par cœur!) et de lister les trois groupes alimentaires principaux des elfes (les bonbons, les sucres d’orge et le sirop), vous pourriez réussir ce test haut la main. 
+					Écoutez-vous bien les commentaires de la RTS lors des courses de ski alpin? Pour éviter d’être redondant, les journalistes parlaient de Didier Cuche comme du skieur des Bugnenets (oui, cet exemple du passé a été choisi pour ne pas vous spoiler le quiz qui suit). Mais savez-vous où sont situés ces lieux mentionnés?
 				</p>
 
 				<p class="text-lg font-light">
-					Gare à vous, toutefois, si vous vous trompez! Le Grinch vous attend de pied ferme à Whoville pour vous faire réciter des chants de Noël jusqu’au 24 décembre. Mais on vous fait confiance: il suffit d’avoir vu quelques classiques des Fêtes pour trouver les bonnes réponses. Sinon, ce sera juste le signe qu’un petit rattrapage cinématographique s’impose, accompagné d’une énorme tasse de chocolat chaud!
+					Blick vous a concocté un questionnaire sur les cantons d’origine des différents skieurs suisses. Vous allez voir, ça va commencer assez facilement. Mais ça peut rapidement se corser. Bonne chance!
 				</p>
 
 			
@@ -142,7 +142,7 @@
 						</div>
 						<span class="nb-results block text-center text-4xl font-sans font-semibold mb-6"><span class="nb-correct">8</span> / <span class="nb-question">10</span></span>
 						<span class="percent-results block text-center text-2xl font-sans font-light mb-10 md:mb-12">soit <span class="percent-correct font-semibold">80</span>% de réponses correctes</span>
-						<span class="final-text block text-center text-base md:text-xl font-sans font-light mb-12 rounded-3xl bg-slate-200 p-6 md:p-8">Merci pour votre participation! Quel que soit votre score, vous méritez tous les Chocogrenouilles et sucres d’orge que le pôle Nord peut offrir. On vous souhaite de magnifiques fêtes de fin d’année! </span>
+						{# <span class="final-text block text-center text-base md:text-xl font-sans font-light mb-12 rounded-3xl bg-slate-200 p-6 md:p-8">Merci pour votre participation! Quel que soit votre score, vous méritez tous les Chocogrenouilles et sucres d’orge que le pôle Nord peut offrir. On vous souhaite de magnifiques fêtes de fin d’année! </span> #}
 						<div class="grid grid-cols-1 md:grid-cols-2 gap-x-6">
 							<a href="." class="block">
 							<button class="btn-redo bg-white rounded-full border-custom-btn border-black text-center text-2xl font-sans font-semibold antialiased rounded-full py-4 px-8 w-full mb-4 md:mb-0">Refaire le test</button></a>

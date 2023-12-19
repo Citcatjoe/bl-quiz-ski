@@ -1,16 +1,16 @@
 {
-	"title": "NO TITLE",
-	"titlesocial": "NO TITLE",
-	"description": "NO DESC",
+	"title": "De quel canton sont originaires ces skieurs?",
+	"titlesocial": "De quel canton sont originaires ces skieurs?",
+	"description": "Vous pensez être incollable en skieurs suisses et leur canton d'origine? Blick vous a concocté un quiz pour vous mettre au défi.",
 	"authors": {
-		"photos": "Midjourney",
+		"photos": "Shutterstock",
 		"videos": null,
 		"writer": {
-			"fname": "Léo",
-			"lname": "Michoud",
+			"fname": "Matthias",
+			"lname": "Davet",
 			"title": "Journaliste Blick",
 			"filetype": "png",
-			"url": "https://www.blick.ch/fr/auteurs/leo-michoud-journaliste-blick-id19149587.html"
+			"url": "https://www.blick.ch/fr/auteurs/matthias-davet-journaliste-blick-id16855831.html"
 		},
 		"dev": "César Greppin"
 	},
